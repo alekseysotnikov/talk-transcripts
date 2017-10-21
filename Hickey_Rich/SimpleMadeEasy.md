@@ -1,4 +1,4 @@
-# Simple Made Easy
+# Simple Made Easy (на русском)
 
 * **Спикер: Rich Hickey**
 * **Конференция: [Strange Loop 2011](http://thestrangeloop.com) - Sept 2011**
@@ -14,22 +14,24 @@
 
 [Аудиория смеется] 
 
-Этот доклад, на мой взгляд, кажется обманчиво очевидным. Одна из прекрасных вещей этой конференции это довольно продвинутые слушатели.  Многие из вас применяют новые технологии. Многие из вас занимаются функциональным программированием. И вы можете кивать, приговаривая, да-да-да **through parts of this**. И если что-то из этого знакомо, то это отлично. 
-С другой стороны, я думаю что, я хотел бы надеятся что вы уйдете с этого доклада с некоторыми инструментами, которые помогут вам проводить подобные разговоры с другими людьми и убеждать их делать правильные вещи.
+Этот доклад, на мой взгляд, кажется обманчиво очевидным. Одна из прекрасных вещей этой конференции это довольно продвинутые слушатели.  Многие из вас применяют новые технологии. Многие из вас занимаются функциональным программированием. И вы можете местами кивать, приговаривая, да-да-да. Вообщем если что-то из этого знакомо, то это отлично. 
+С другой стороны, я думаю что, я хотел бы надеятся что вы уйдете с этого доклада с некоторыми инструментами, которые помогут вам устраивать подобные разговоры с другими людьми и убеждать их делать правильные вещи.
 
 ![00:01:00 Дейкстра, Эдсгер Вибе цитата](SimpleMadeEasy/00.01.00.jpg)
 
-Итак, Я начну с обращения к авторитетному источнику. Простота - это необходимое условие надежности. Я безусловно согласен с этим. Я не согласен со всем что сказал Дейкстра, и я думаю что он сильно ошибался в доказательстве. Но я думаю что он прав насчет этого. Нам нужно создавать простые системы если мы хотим создавать хорошие системы. Я не думаю, что мы достаточно концентрируемся на этом.
+Итак, я начну с обращения к авторитетному источнику. Простота - это необходимое условие надежности. Я безусловно согласен с этим. Я не согласен со всем что сказал Дейкстра, и я думаю, что он сильно ошибался в доказательстве. Но я думаю что он прав насчет этого. Нам нужно создавать простые системы если мы хотим создавать хорошие системы. И я не думаю, что мы достаточно концентрируемся на этом.
 
-![00:01:21 Word Origins](SimpleMadeEasy/00.01.21.jpg)
+![00:01:21 Происхождение слов](SimpleMadeEasy/00.01.21.jpg)
 
-I love word origins. They're tremendous fun. One of the reasons why they're fun is because words eventually come to mean whatever we all accept them to mean. You know, whatever is commonly understood to be the meaning is what it means. And it's often interesting to say, well, I wish I could; I wish we could go back to what it really means and use that. And I think there's a couple of words that I'm going to use in this talk that I would love for you to come away knowing the origins of and try to use more precisely, especially when talking about software. 
+Мне нравится происхождение слов. Они жутко веселые. Одна из причин почему они забавные, состоит в том что слова в конечном итоге означают то, что мы все понимаем. Тоесть все, что привычно понимается как смысл, это оно и означает. И часто интересно сказать - "Ну, хотелось бы вернуться назад и узнать что действительно это значит" и использовать это. И я думаю, что есть пара слов, которые я собираюсь использовать в этом докладе, и я хотел бы чтобы вы ушли зная их происхождение, и пытались использовать их более точно, особенно в разговорах о программном обеспечении.
 
-So the first word is simple. And the roots of this word are sim and plex, and that means one fold or one braid or twist. And that characteristic about being about one literally fold or twist, of course one twist, what's one twist look like? No twists, right, actually. 
+Итак, первое слово - simple. И корни этого слова sim и plex, и это означает один сгиб или одно сплетение или один поворот. И это характерно для одного буквального сгиба или поворота. Через один поворот. Как выглядит один поворот? Нет поворотов на самом деле, да? 
 
-And the opposite of this word is complex, which means braided together or folded together. Being able to think about our software in terms of whether or not it's folded together is sort of the central point of this talk. 
+Противоположность этого слова - это complex, что означает заплетенный вместе или скрученный вместе. Возможность мыслить о нашем ПО с точки зрения скручено ли оно вместе или нет, своего рода и есть основная мысль этого доклада.
 
-The other word we frequently use interchangeably with simple is the word easy. And the derivation there is to a French word, and the last step of this derivation is actually speculative, but I bought it because it serves this talk really well, and that is from the Latin word that is the root of adjacent, which means to lie near and to be nearby. And the opposite is hard. Of course, the root of hard has nothing to do with lying near. It doesn't mean lie far away. It actually means like strong or tortuously so.
+Другое слово которое мы часто взаимозаменяемо используем - это слово easy. *Его словообразование есть во французском слове, и последний шаг этого словообразования на самом деле гипотетический, но я купил его потому что он служит этому докладу действительно хорошо, и оно происходит от латинского слова, которое является корнем слова соседний, что значит лежать рядом и находится поблизости. И противоположность - это hard. Конечно, корень слова hard не имеет ничего общего с лежать рядом. Это не значит лежать далеко. Это на самом деле означает что-то сильное или мучительное.*
+
+ *And the derivation there is to a French word, and the last step of this derivation is actually speculative, but I bought it because it serves this talk really well, and that is from the Latin word that is the root of adjacent, which means to lie near and to be nearby. And the opposite is hard. Of course, the root of hard has nothing to do with lying near. It doesn't mean lie far away. It actually means like strong or tortuously so.*
 
 ![00:03:19 Simple](SimpleMadeEasy/00.03.19.jpg)
 
