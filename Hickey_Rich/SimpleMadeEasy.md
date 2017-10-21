@@ -1,24 +1,25 @@
 # Simple Made Easy
 
-* **Speaker: Rich Hickey**
-* **Conference: [Strange Loop 2011](http://thestrangeloop.com) - Sept 2011**
-* **Video: [http://www.infoq.com/presentations/Simple-Made-Easy](http://www.infoq.com/presentations/Simple-Made-Easy)**
+* **Спикер: Rich Hickey**
+* **Конференция: [Strange Loop 2011](http://thestrangeloop.com) - Sept 2011**
+* **Видео: [http://www.infoq.com/presentations/Simple-Made-Easy](http://www.infoq.com/presentations/Simple-Made-Easy)**
 
 ![00:00:00 Simple Made Easy](SimpleMadeEasy/00.00.00.jpg)
 
-Hi. So who is ready for some more category theory?
+Привет. Итак, кто готов послушать еще про теорию категорий?
 
-[Audience applause]
+[Аудитория аплодирует]
 
-You're all in the wrong room.
+Вы оказались не в той аудитории.
 
-[Audience laughter] 
+[Аудиория смеется] 
 
-This talk I hope seems deceptively obvious. One of the things that's great about this conference is this is a pretty cutting edge crowd. A lot of you are adopting new technologies. A lot of you are doing functional programming. And you may be nodding, saying yeah, yeah, yeah through parts of this. And if some of it is familiar, that's great. On the other hand, I think that I would hope that you would come away from this talk with some tools you could use to help conduct a similar kind of discussion to this talk with other people that you're trying to convince to do the right thing.
+Этот доклад, на мой взгляд, кажется обманчиво очевидным. Одна из прекрасных вещей этой конференции это довольно продвинутые слушатели.  Многие из вас применяют новые технологии. Многие из вас занимаются функциональным программированием. И вы можете кивать, приговаривая, да-да-да **through parts of this**. И если что-то из этого знакомо, то это отлично. 
+С другой стороны, я думаю что, я хотел бы надеятся что вы уйдете с этого доклада с некоторыми инструментами, которые помогут вам проводить подобные разговоры с другими людьми и убеждать их делать правильные вещи.
 
-![00:01:00 Edsger W. Dijkstra quote](SimpleMadeEasy/00.01.00.jpg)
+![00:01:00 Дейкстра, Эдсгер Вибе цитата](SimpleMadeEasy/00.01.00.jpg)
 
-So, I'll start with an appeal to authority. Simplicity is a prerequisite for reliability. I certainly agree with this. I don't agree with everything Dijkstra said, and I think he might have been very wrong about proof in particular. But I think he's right about this. We need to build simple systems if we want to build good systems. I don't think we focus enough on that.
+Итак, Я начну с обращения к авторитетному источнику. Простота - это необходимое условие надежности. Я безусловно согласен с этим. Я не согласен со всем что сказал Дейкстра, и я думаю что он сильно ошибался в доказательстве. Но я думаю что он прав насчет этого. Нам нужно создавать простые системы если мы хотим создавать хорошие системы. Я не думаю, что мы достаточно концентрируемся на этом.
 
 ![00:01:21 Word Origins](SimpleMadeEasy/00.01.21.jpg)
 
