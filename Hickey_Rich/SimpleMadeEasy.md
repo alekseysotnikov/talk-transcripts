@@ -1,4 +1,4 @@
-# Simple Made Easy (на русском)
+# Simple Made Easy (перевод на русский)
 
 * **Спикер: Rich Hickey**
 * **Конференция: [Strange Loop 2011](http://thestrangeloop.com) - Sept 2011**
@@ -35,13 +35,13 @@
 
 ![00:03:19 Simple](SimpleMadeEasy/00.03.19.jpg)
 
-So if we want to try to apply simple to the kinds of work that we do, we're going to start with this concept of having one braid. And look at it in a few different dimensions. I thought it was interesting in Eric's talk to talk about dimensions because it's definitely a big part of doing design work. And so if we want to look for simple things, we want to look for things that have sort of one of something. They do, they have one role. They fulfill one task or job. They're about accomplishing sort of one objective. They might be about one concept like security. 
+Итак, если мы хотим применить simple в нашей работе, то мы начнем с понятия одного сплетения. Давайте посмотрим на это в разных измерениях. Я думал что было интересно поговорить об измерениях в докладе Эрика, потому что это действительно большая часть для проектирования. И поэтому, если мы хотим найти простые вещи, *мы хотим найти вещи которые имеют что-то одно, одно от чего-то.* (**And so if we want to look for simple things, *we want to look for things that have sort of one of something.***) У них одна роль. Они удовлетворяют требованиям одной задачи или работы. Они выполняют какую-то одну цель. Они могут быть примерно одной концепции, например безопасноти. 
 
-And sort of overlapping with that is they may be about a particular dimension of the problem that you're trying to solve. The critical thing there, though, is that when you're looking for something that's simple, you want to see it have focus in these areas. You don't want to see it combining things. 
+*И какие-то пересечения с этим могут говорить о конкретном измерении проблемы которую вы пытаетесь решить.*(**And sort of overlapping with that is they may be about a particular dimension of the problem that you're trying to solve.**) Важная вещь здесь думаю в том, что когда вы ищите что-то простое, вы хотите видеть что оно сфокусировано в этих областях. Вы не хотите видеть это объединенным.
 
-On the other hand, we can't get too fixated about one. In particular, simple doesn't mean that there's only one of them. Right? It also doesn't mean an interface that only has one operation. So it's important to distinguish cardinality, right, counting things from actual interleaving. What matters for simplicity is that there is no interleaving, not that there's only one thing, and that's very important. 
+С другой стороны, мы не можем слишком зацикливаться на одном. В частности, просто не значит лишь один из. Верно? Это также не подразумевает интерфейст только с одной операцией. Поэтому важно различать множество, *рассчитывать вещи из фактического чередования* (**counting things from actual interleaving**). Для простоты важно чтобы не было чередования, не только чтобы это было что-то одно, это очень важно.
 
-Okay, the other critical thing about simple, as we've just described it, right, is if something is interleaved or not, that's sort of an objective thing. You can probably go and look and see. I don't see any connections. I don't see anywhere where this twist was something else, so simple is actually an objective notion. That's also very important in deciding the difference between simple and easy.
+*Хорошо, другие критические вещи о простом (simple), такие как мы только что описали, это когда если что-то чередуемо или нет, это своего рода объективная вещь* (**Okay, the other critical thing about simple, as we've just described it, right, is if something is interleaved or not, that's sort of an objective thing.**). Вы наверное можете пойти посмотреть и увидеть. Я не нахожу никаких соединений. Я не вижу чтобы это скручивание было чем-то еще, поэтому простое (simple) это на самом деле объективное представление. Это также очень важно в понимании разницы между простым (simple)  и легким (easy).
 
 ![00:05:16 Easy](SimpleMadeEasy/00.05.16.jpg)
 
